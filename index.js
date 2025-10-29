@@ -28,3 +28,7 @@ const product = decodedRoots.reduce((acc, val) => acc * val, 1);
 const constantTerm = ((-1) ** n_roots) * product;
 
 console.log(`Constant Term (c): ${constantTerm}`);
+
+
+// constant term for 1st testcase  --> 13104
+// constant term for 2nd testcase  --> 1.0392153502738997e+185
